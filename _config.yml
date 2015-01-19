@@ -1,0 +1,10 @@
+# Site settings
+title: OR Software Tools 2013
+description: > # this means to ignore newlines until "baseurl:"
+  Repository for code/examples/instructions for the MIT course 15.S60 "Software Tools for Operations Research"
+baseurl: "/ORSoftwareTools2013" # the subpath of your site, e.g. /blog/
+url: "http://rma350.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: []
