@@ -4,7 +4,7 @@ title:  "Cut Generation, Heuristics and Callbacks: How to Solve Hard IPs"
 author: Ross Anderson
 ---
 
-This class is a tutorial on using callbacks, a group of advanced CPLEX features. The Traveling Salesmen Problem (TSP) will be used as a running example. CPLEX will be accessed through the Java Concert Technology interface. Be sure to complete the [prerequisites and installation instructions](prerequisites/index.html) before beginning the tutorial.
+This class is a tutorial on using callbacks, a group of advanced CPLEX features. The Traveling Salesmen Problem (TSP) will be used as a running example. CPLEX will be accessed through the Java Concert Technology interface. Be sure to complete the [prerequisites and installation instructions](prerequisites/index.html) before beginning the tutorial.  [These slides](../assets/cut-generation-heuristics-and-callbacks/presentation.pdf) reviewing some Java and walk through the very beginning of the tutorial.
 
 
 # Tutorial
