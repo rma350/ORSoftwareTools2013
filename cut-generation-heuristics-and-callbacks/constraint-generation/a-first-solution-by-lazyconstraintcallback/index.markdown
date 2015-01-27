@@ -98,7 +98,7 @@ Here are a few more hints:
 [Solution is here](lazy-solution/index.html)
 
 
-h1. Testing your solution
+# Testing your solution
 
 We will use the [same test instance](../../tsp-in-cplex/adding-variables-objectives-and-constraints/index.html#test-your-code) we used before we had implemented the cutset constraints.  Thus the first integer solution found should cause our model to add the cut below and ultimately reach a final solution with objective value 24.
 
@@ -110,6 +110,6 @@ The correct JUnit test has already been coded for you.  If you run the JUnit tes
 
 Ideally, it would have been better to make a function that takes in the set of edges used and returns the cuts as a set of set of edges.  Then we could test this function for a fixed input independently of CPLEX and solving the whole TSP.  If the code is designed as a bunch of modular, independent parts that are independently tested and simply connected together, it is much easier to determine where errors are coming from.  This idea is known as [Unit Testing](http://en.wikipedia.org/wiki/Unit_testing).
 
-h1. Complete Source
+# Complete Source
 
 If all else fails, _TspIpSolver.java_ should currently look something like [this](complete-source/index.html).
